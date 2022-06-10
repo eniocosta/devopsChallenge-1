@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+  aluraflix-app:
+    image: eniocosta/devops_challenge:latest
+    container_name: aluraflix-app
+    volumes:
+      - sqlite:/app/db
+    ports:
+      - 80:8000
+
+volumes:
+  sqlite:
