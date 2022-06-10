@@ -1,7 +1,6 @@
 ## Challenge DevOps Alura - Semana 01: Criando containers
 
 ### Descrição
-Mais informações sobre o desafio: https://www.alura.com.br/challenges/devops/semana-01-criando-containers
 
 Etapas:
 - **Familiarizando com a Aplicação:** A partir de um código fonte existente, executar a aplicação e realizar testes. Verificar quais as portas utilizadas e conexões com banco de dados;
@@ -21,3 +20,5 @@ Para interagir com a aplicação é necessário fazer o registro de um usuário.
   
     docker exec -it aluraflix-app python manage.py createsuperuser
     
+<br><br>
+Mais informações sobre o desafio: https://www.alura.com.br/challenges/devops/semana-01-criando-containers
